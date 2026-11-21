@@ -1,0 +1,18 @@
+{
+  "dataset_id": "zhaosuifeng/FinRAGBench-V",
+  "revision": "d0d65255c94e687caa81ac9da7758ed25ff046a5",
+  "license": "apache-2.0",
+  "query_file": "queries/queries_en.json",
+  "qrels_file": "qrels/qrels_en.tsv",
+  "pdf_source": "pdfs_for_QA/pdf_en.tar.gz",
+  "pdf_source_size_GB": 2.215,
+  "n_queries": 539,
+  "fields": [
+    "query-id",
+    "query",
+    "answer",
+    "category",
+    "answer_type",
+    "from_pages"
+  ]
+}

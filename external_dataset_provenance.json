@@ -1,0 +1,9 @@
+{
+  "name": "FinChart-Bench",
+  "task": "QA",
+  "source": "https://github.com/Tizzzzy/FinChart-Bench",
+  "revision": "07674bba114b237ec708d6ad9381dc443aa1cdae",
+  "n_questions_total": 2285,
+  "n_selected": 200,
+  "exclusions": 0
+}

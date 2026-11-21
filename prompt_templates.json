@@ -1,0 +1,26 @@
+{
+  "system": "You are a financial analyst. Read the evidence and answer the question with the figures shown in it. Copy numbers exactly as printed, or compute them from printed numbers, and keep units, currency and scale (for example 'million'). Do not use outside knowledge.",
+  "user_head": "Question: {question}",
+  "user_tail": "Question: {question}\nReply in exactly two lines:\nAnswer: <short answer with the number(s) and unit>\nEvidence: <evidence ID(s) used, e.g. [P1]>\nWrite 'Answer: INSUFFICIENT_EVIDENCE' only if the evidence contains nothing relevant to the question.",
+  "descriptors": {
+    "text": "PDF text layer",
+    "image": "page image",
+    "ocr": "OCR text extracted from the page image"
+  },
+  "condition_parts": {
+    "E1": [
+      "text"
+    ],
+    "E2": [
+      "image"
+    ],
+    "E3": [
+      "ocr"
+    ],
+    "E4": [
+      "image",
+      "ocr"
+    ]
+  },
+  "version": "v2"
+}
